@@ -5,9 +5,9 @@ import { Livro } from "./livro.model";
 export class LivrosService {
 
     private livros: Livro[] = [
-        new Livro('LIV01', 'Livro TDD', 29.90),
-        new Livro('LIV02', 'Livro Flutter', 39.90),
-        new Livro('LIV03', 'Livro IA', 29.90)
+        // new Livro('LIV01', 'Livro TDD', 29.90),
+        // new Livro('LIV02', 'Livro Flutter', 39.90),
+        // new Livro('LIV03', 'Livro IA', 29.90)
     ];
 
     obterTodos(): Livro[] {
